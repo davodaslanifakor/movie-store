@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Layout from '../components/layout/default'
+import Layout from 'components/layout/default'
 class Home extends Component {
     render() { 
         return (   
           <Layout>
-            <p>About</p>
+            <p>home</p>
           </Layout>);
     }
 }

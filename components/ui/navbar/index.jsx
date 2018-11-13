@@ -1,13 +1,15 @@
-import "./styles.styl"
 
-import React, { Component } from 'react';   
+// import "./style.styl"
+import React, { Component } from 'react';  
+import Logo from './logo' 
 class Navbar extends Component {
     state = {  }
     render() { 
         return (
-        <nav>
-            <p className="example">Hello Navbar</p>
-        </nav> );
+        <nav className="navbar">
+           <Logo/>
+        </nav>
+        );
     }
 }
  

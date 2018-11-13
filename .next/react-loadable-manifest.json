@@ -7,10 +7,10 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "./styles.styl": [
+  "../../static/css/main.styl": [
     {
-      "id": "./components/ui/navbar/styles.styl",
-      "name": "./components/ui/navbar/styles.styl",
+      "id": "./static/css/main.styl",
+      "name": "./static/css/main.styl",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

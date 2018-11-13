@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from '../ui/navbar/index'
-class home extends Component {
+import '~/css/main.styl'
+class Layout extends Component {
   state = {};
   render() {
     return (
@@ -13,4 +14,4 @@ class home extends Component {
   }
 }
 
-export default home;
+export default Layout;
