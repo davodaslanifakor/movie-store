@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 14/11/2018 13:00
+    Creation date: 14/11/2018 13:34
     */
 
     @font-face {
@@ -50,6 +50,8 @@
 .flaticon-error:before { content: "\f10b"; }
 .flaticon-dustbin:before { content: "\f10c"; }
 .flaticon-film:before { content: "\f10d"; }
+.flaticon-left-arrow:before { content: "\f10e"; }
+.flaticon-right-arrow:before { content: "\f10f"; }
     
     $font-Flaticon-edit: "\f100";
     $font-Flaticon-play-button: "\f101";
@@ -65,3 +67,5 @@
     $font-Flaticon-error: "\f10b";
     $font-Flaticon-dustbin: "\f10c";
     $font-Flaticon-film: "\f10d";
+    $font-Flaticon-left-arrow: "\f10e";
+    $font-Flaticon-right-arrow: "\f10f";

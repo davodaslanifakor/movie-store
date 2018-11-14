@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 14/11/2018 13:00
+  	Creation date: 14/11/2018 13:34
   	*/
 
 @font-face {
@@ -42,3 +42,5 @@ font-style: normal;
 .flaticon-error:before { content: "\f10b"; }
 .flaticon-dustbin:before { content: "\f10c"; }
 .flaticon-film:before { content: "\f10d"; }
+.flaticon-left-arrow:before { content: "\f10e"; }
+.flaticon-right-arrow:before { content: "\f10f"; }
