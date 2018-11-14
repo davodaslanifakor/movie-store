@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 html {
   line-height: 1.15 /* 1 */;
   -webkit-text-size-adjust: 100% /* 2 */;
@@ -165,10 +166,60 @@ button {
 button:focus {
   outline: none;
 }
+ul,
+li,
+ol {
+  margin-bottom: 0;
+  list-style: none;
+}
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 260px;
-  background-color: #f00;
+  height: 75px;
+  background-color: #fff;
+  padding: 0 15px;
+}
+.avatar {
+  display: flex;
+  width: 176px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.avatar-box {
+  position: relative;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.avatar-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.avatar-name {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+}
+.navbarItem {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+.navbarItem li a {
+  color: #909296;
+  transition: color 0.3s ease-in;
+}
+.navbarItem li a:before {
+  font-size: 28px;
+}
+.navbarItem li a:hover {
+  color: #d8232a;
 }
 
 
