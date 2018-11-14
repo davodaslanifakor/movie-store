@@ -75,7 +75,14 @@ class Slider extends Component {
     slideWidth = () => {
        return document.querySelector('.slide').clientWidth
     }
-  
+    componentDidMount(){
+      setInterval(e=>{
+        this.goToNextSlide()
+      },5000)
+    }
+    componentWillUnmount() {
+      console.log("conerrd Unmounted");
+    }
     render() {
       return (
         <div className="slider">
